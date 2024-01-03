@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/content/images/favicon.png" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEJI's Favorites</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>TEJI's Favourites</h1>
+
+    <p>
+      Here is a growing list of some of my favourite things that have had a huge
+      impact on my Life. Last updated on Jan 3rd, 2023
+    </p>
+    <ul>
+      <li>
+        My favorite film is
+        <a href="https://www.imdb.com/title/tt0089218/">The Goonies</a>
+        <span class="emoji">🏴‍☠️</span>
+      </li>
+      <li>
+        My favorite song is
+        <a href="https://www.youtube.com/watch?v=RiZVjfjgNyY">I’m God</a>
+        <span class="emoji">☀️</span>
+      </li>
+      <li>
+        My favorite book is
+        <a href="https://www.goodreads.com/book/show/9969571-ready-player-one"
+          >Ready Player One</a
+        >
+        <span class="emoji">🕹</span>
+      </li>
+      <li>
+        My favorite food is Cold Chocolate
+        <span class="emoji">🍫</span>
+      </li>
+      <li>
+        My favorite cities are New York
+        <span class="emoji">🇺🇸</span>, Tokyo <span class="emoji">🇯🇵</span>, and
+        Sydney
+        <span class="emoji">🇦🇺</span>
+      </li>
+    </ul>
+
+    <h3>
+      <a href="https://teji.io/index.html">Home</a>
+    </h3>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        document.querySelectorAll("a").forEach((link) => {
+          link.target = "_blank";
+        });
+      });
+    </script>
+  </body>
+</html>
