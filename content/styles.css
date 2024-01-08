@@ -1,0 +1,11 @@
+body {
+  margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
+  text-align: left; /* Ensure all text is left-aligned */
+  max-width: 800px; /* Maximum width of the content */
+  margin-left: auto; /* Center the content block horizontally */
+  margin-right: auto; /* Center the content block horizontally */
+}
+
+p {
+  margin-bottom: 1em; /* Space between paragraphs */
+}
