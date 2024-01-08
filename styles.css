@@ -4,8 +4,13 @@ body {
   max-width: 800px; /* Maximum width of the content */
   margin-left: auto; /* Center the content block horizontally */
   margin-right: auto; /* Center the content block horizontally */
+  padding-left: 2px; /* Adds padding to the left */
+  padding-right: 2px; /* Adds padding to the right */
 }
 
-p {
-  margin-bottom: 1em; /* Space between paragraphs */
+@media (max-width: 768px) {
+  body {
+    padding-left: 4px; /* Slightly more padding on smaller screens */
+    padding-right: 4px; /* Slightly more padding on smaller screens */
+  }
 }
