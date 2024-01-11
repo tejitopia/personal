@@ -14,3 +14,15 @@ body {
     padding-right: 4px; /* Slightly more padding on smaller screens */
   }
 }
+
+/* For most browsers */
+::selection {
+  background: yellow; /* Background color for selected text */
+  color: black; /* Text color for selected text */
+}
+
+/* For Mozilla Firefox */
+::-moz-selection {
+  background: yellow;
+  color: black;
+}
