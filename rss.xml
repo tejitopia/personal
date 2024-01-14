@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
-<title>TEJI's RSS Feed</title>
-<description>RSS Feed for all the latest TEJI writing.</description>
+<title>TEJI</title>
+<description>TEJI RSS FEED</description>
 <language>en-us</language>
-<link>https://teji.io/</link>
+<link>https://teji.io/rss.xml</link>
 <atom:link href="http://teji.io/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LB -->
