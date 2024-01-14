@@ -6,7 +6,7 @@
 <description>TEJI RSS FEED</description>
 <language>en-us</language>
 <link>https://teji.io/rss.xml</link>
-<atom:link href="http://teji.io/rss.xml" rel="self" type="application/rss+xml" />
+<atom:link href="https://teji.io/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LB -->
 
