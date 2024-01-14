@@ -6,7 +6,7 @@
 <description>RSS Feed for all the latest TEJI writing.</description>
 <language>en-us</language>
 <link>https://teji.io/</link>
-<atom:link href="http://yourwebsite.com/rss.xml" rel="self" type="application/rss+xml" />
+<atom:link href="http://teji.io/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LB -->
 
