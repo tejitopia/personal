@@ -8,30 +8,55 @@
 
     <item>
   <title>TEJI's Principles for Life</title>
-  <link>https://teji.io/essays/principles-for-life.html</link>
-  <guid>https://teji.io/essays/principles-for-life.html</guid>
-  <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+  <link>https://teji.io/library/essays/principles</link>
+  <guid>https://teji.io/library/essays/principles</guid>
   <description><![CDATA[
-    <h1>Principles</h1>
-    <p>A list of guiding principles for life by Jet Williams on Jan 3rd, 2023</p>
+      <h1>Principles</h1>
+
+    <p>
+      A list of guiding principles for life by Jet Williams on Jan 3rd, 2023
+    </p>
     <ul>
       <li>Use what you have</li>
       <li>Never hold in a compliment</li>
-      <!-- More items here -->
+      <li>Stay curious</li>
+      <li>Challenge yourself</li>
+      <li>Listen more than you talk</li>
+      <li>Embrace the unknown</li>
+      <li>Think for yourself</li>
+      <li>Don't be afraid to ask for help</li>
+      <li>Good habits are contagious</li>
+      <li>Learn to let go of things</li>
+      <li>Don't forget to play</li>
+      <li>Progress over perfection</li>
+      <li>Stand up for yourself</li>
+      <li>Tell the truth</li>
+      <li>Talk to strangers</li>
+      <li>How you react is everything</li>
+      <li>Accept your emotions</li>
+      <li>Know when to roll up your sleeves</li>
+      <li>Know when to rest</li>
+      <li>Always be creating</li>
+      <li>Pessimism is a virus</li>
+      <li>Keep your word</li>
+      <li>Believe</li>
+      <li>Loss and gain are the same</li>
+      <li>Life is in the grey</li>
+      <li>Say what you mean</li>
+      <li>Avoid gossip</li>
       <li>Know when to break the rules</li>
     </ul>
-    <p>NOTE: Principles shouldn't always be followed. There is always an exception. Know when to break the rules.</p>
+
+    <p>
+      NOTE: Principles shouldn't always be followed. There is always an
+      exception. Know when to break the rules.
+    </p>
+
+    <h3>
+      <a href="https://teji.io/index.html">Home</a>
+    </h3>
   ]]></description>
 </item>
-
-
-    <item>
-      <title>Post 2 Title</title>
-      <description>This is a summary of the second post.</description>
-      <link>https://yourwebsite.com/post2</link>
-      <guid>https://yourwebsite.com/post2</guid>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
 
     <!-- More <item> elements here for additional posts -->
 
