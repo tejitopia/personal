@@ -29,8 +29,8 @@ a {
 
 @media (max-width: 768px) {
   body {
-    padding-left: 4px; /* Slightly more padding on smaller screens */
-    padding-right: 4px; /* Slightly more padding on smaller screens */
+    padding-left: 11px; /* Slightly more padding on smaller screens */
+    padding-right: 11px; /* Slightly more padding on smaller screens */
   }
 }
 
