@@ -1,4 +1,5 @@
 body {
+  font-family: "PT Mono", monospace; /* Apply PT Mono Regular as the default body font */
   margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
   text-align: left; /* Ensure all text is left-aligned */
   max-width: 800px; /* Maximum width of the content */
@@ -6,6 +7,16 @@ body {
   margin-right: auto; /* Center the content block horizontally */
   padding-left: 2px; /* Adds padding to the left */
   padding-right: 2px; /* Adds padding to the right */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica", sans-serif; /* Apply Helvetica as the default font for headers */
+  font-weight: bold; /* Make headers bold */
 }
 
 @media (max-width: 768px) {
