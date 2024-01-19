@@ -2,7 +2,7 @@ body {
   font-family: "PT Mono", monospace; /* Apply PT Mono Regular as the default body font */
   margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
   text-align: left; /* Ensure all text is left-aligned */
-  max-width: 800px; /* Maximum width of the content */
+  max-width: 700px; /* Maximum width of the content */
   margin-left: auto; /* Center the content block horizontally */
   margin-right: auto; /* Center the content block horizontally */
   padding-left: 2px; /* Adds padding to the left */
