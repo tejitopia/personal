@@ -7,6 +7,9 @@ body {
   margin-right: auto; /* Center the content block horizontally */
   padding-left: 2px; /* Adds padding to the left */
   padding-right: 2px; /* Adds padding to the right */
+  background-color: #121212; /* Sets the background color to #121212 */
+  color: white; /* Sets the text color to white */
+  line-height: 1.5; /* Sets the line height to 1.6 times the font size */
 }
 
 h1,
@@ -19,6 +22,11 @@ h6 {
   font-weight: bold; /* Make headers bold */
 }
 
+/* Style for links */
+a {
+  color: #5cc9eb; /* Sets the link color to #5cc9eb */
+}
+
 @media (max-width: 768px) {
   body {
     padding-left: 4px; /* Slightly more padding on smaller screens */
@@ -28,12 +36,12 @@ h6 {
 
 /* For most browsers */
 ::selection {
-  background: yellow; /* Background color for selected text */
+  background: rgb(249, 249, 79); /* Background color for selected text */
   color: black; /* Text color for selected text */
 }
 
 /* For Mozilla Firefox */
 ::-moz-selection {
-  background: yellow;
+  background: rgb(249, 249, 79);
   color: black;
 }
