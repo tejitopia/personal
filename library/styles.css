@@ -1,5 +1,6 @@
 body {
-  font-family: "PT Mono", monospace; /* Apply PT Mono Regular as the default body font */
+  font-family: "Courier", monospace; /* Apply Courier as the default body font */
+  font-size: 16px; /* Sets the font size to 16 pixels */
   margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
   text-align: left; /* Ensure all text is left-aligned */
   max-width: 700px; /* Maximum width of the content */
@@ -7,8 +8,8 @@ body {
   margin-right: auto; /* Center the content block horizontally */
   padding-left: 2px; /* Adds padding to the left */
   padding-right: 2px; /* Adds padding to the right */
-  background-color: #121212; /* Sets the background color to #121212 */
-  color: white; /* Sets the text color to white */
+  background-color: #ffffff; /* Sets the background color to #121212 */
+  color: rgb(0, 0, 0); /* Sets the text color to white */
   line-height: 1.5; /* Sets the line height to 1.6 times the font size */
 }
 
@@ -24,7 +25,7 @@ h6 {
 
 /* Style for links */
 a {
-  color: #5cc9eb; /* Sets the link color to #5cc9eb */
+  color: #0027e8; /* Sets the link color to #5cc9eb */
 }
 
 @media (max-width: 768px) {
