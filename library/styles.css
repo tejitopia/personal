@@ -9,7 +9,7 @@ body {
   padding-left: 2px; /* Adds padding to the left */
   padding-right: 2px; /* Adds padding to the right */
   background-color: #ffffff; /* Sets the background color to #121212 */
-  color: rgb(0, 0, 0); /* Sets the text color to white */
+  color: #212121; /* Sets the text color to white */
   line-height: 1.5; /* Sets the line height to 1.6 times the font size */
 }
 
@@ -25,7 +25,7 @@ h6 {
 
 /* Style for links */
 a {
-  color: #0027e8; /* Sets the link color to #5cc9eb */
+  color: #202020; /* Sets the link color to #5cc9eb */
 }
 
 @media (max-width: 768px) {
@@ -37,7 +37,7 @@ a {
 
 /* For most browsers */
 ::selection {
-  background: rgb(249, 249, 79); /* Background color for selected text */
+  background: rgb(23, 201, 255); /* Background color for selected text */
   color: black; /* Text color for selected text */
 }
 
