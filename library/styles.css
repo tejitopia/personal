@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica", "Arial", sans-serif; /* First try Helvetica, then Arial, then any available sans-serif */
+  font-family: monospace, "Courier New", Courier;
   font-size: 16px; /* Sets the font size to 16 pixels */
   margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
   text-align: left; /* Ensure all text is left-aligned */
@@ -8,8 +8,8 @@ body {
   margin-right: auto; /* Center the content block horizontally */
   padding-left: 2px; /* Adds padding to the left */
   padding-right: 2px; /* Adds padding to the right */
-  background-color: #ffffff; /* Sets the background color */
-  color: #212121; /* Sets the text color */
+  background-color: #222222; /* Sets the background color */
+  color: #eeeeee; /* Sets the text color */
   line-height: 1.5; /* Sets the line height */
 }
 
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica", sans-serif; /* Apply Helvetica as the default font for headers */
+  font-family: monospace, "Courier New", Courier; /* Apply Helvetica as the default font for headers */
   font-weight: bold; /* Make headers bold */
 }
 
@@ -27,13 +27,19 @@ h6 {
   display: flex; /* Use Flexbox to lay out children */
   justify-content: space-between; /* Space between the logo and the navigation bar */
   align-items: center; /* Center items vertically */
-  padding: 10px 5%; /* Add some padding */
+  /* padding: 10px 5%; /* Add some padding */
 }
 
 .logo img {
   /* If your logo is a text, you might want to use different styling */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Make sure the image is responsive */
+}
+
+/* Style for links */
+a {
+  text-decoration: none; /* Removes underlines from all links */
+  color: #58daed; /* Sets the link color to #58daed */
 }
 
 .navbar {
@@ -44,7 +50,7 @@ h6 {
 
 .navbar a {
   text-decoration: none; /* Remove underlines from links */
-  color: #202020; /* Your link color */
+  color: #58daed; /* Your link color */
   font-size: 16px; /* Match the size to your design */
   padding: 5px 10px; /* Add some padding */
 }
@@ -61,7 +67,11 @@ h6 {
 
 /* Style for links */
 a {
-  color: #202020; /* Sets the link color to #5cc9eb */
+  color: #58daed; /* Sets the link color to #5cc9eb */
+}
+
+a:hover {
+  text-decoration: underline; /* Add an underline on hover for better UX */
 }
 
 @media (max-width: 768px) {
@@ -73,7 +83,7 @@ a {
 
 /* For most browsers */
 ::selection {
-  background: rgb(23, 201, 255); /* Background color for selected text */
+  background: #78dbeb; /* Background color for selected text */
   color: black; /* Text color for selected text */
 }
 
@@ -81,4 +91,24 @@ a {
 ::-moz-selection {
   background: rgb(249, 249, 79);
   color: black;
+}
+
+.donation-container {
+  display: flex;
+  justify-content: space-around; /* This will space your items evenly */
+}
+
+.donation-box {
+  border: 1px solid #58daed;
+  padding: 10px;
+  background-color: #222222;
+  color: #58daed;
+  margin: 10px; /* Adjust as needed for spacing */
+  flex: 1; /* This will make both boxes take up equal space */
+  width: calc(
+    50% - 20px
+  ); /* This accounts for the margin, assuming a 10px margin on each side */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
