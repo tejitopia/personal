@@ -83,7 +83,7 @@ a {
   
   /* For most browsers */
   ::selection {
-    background: rgb(255, 255, 23); /* Background color for selected text */
+    background: #78dbeb; /* Background color for selected text */
     color: black; /* Text color for selected text */
   }
   
