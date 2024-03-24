@@ -1,0 +1,85 @@
+body {
+    font-family: 'PT Mono', monospace; /* First try Helvetica, then Arial, then any available sans-serif */
+    font-size: 16px; /* Sets the font size to 16 pixels */
+    margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
+    text-align: left; /* Ensure all text is left-aligned */
+    max-width: 700px; /* Maximum width of the content */
+    margin-left: auto; /* Center the content block horizontally */
+    margin-right: auto; /* Center the content block horizontally */
+    padding-left: 2px; /* Adds padding to the left */
+    padding-right: 2px; /* Adds padding to the right */
+    background-color: #ffffff; /* Sets the background color */
+    color: #000000; /* Sets the text color */
+    line-height: 1.5; /* Sets the line height */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Helvetica", sans-serif; /* Apply Helvetica as the default font for headers */
+    font-weight: bold; /* Make headers bold */
+  }
+  
+  .header {
+    display: flex; /* Use Flexbox to lay out children */
+    justify-content: space-between; /* Space between the logo and the navigation bar */
+    align-items: center; /* Center items vertically */
+    padding: 10px 5%; /* Add some padding */
+  }
+  
+  .logo img {
+    /* If your logo is a text, you might want to use different styling */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Make sure the image is responsive */
+  }
+  
+  .navbar {
+    display: flex; /* Use Flexbox for the navigation links as well */
+    justify-content: flex-end; /* Align the links to the right */
+    gap: 5px; /* Space between the navigation links */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: rgb(114, 221, 253); /* Your link color */
+    font-size: 16px; /* Match the size to your design */
+    padding: 5px 10px; /* Add some padding */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Add an underline on hover for better UX */
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack logo and navigation on small screens */
+    }
+  }
+  
+  /* Style for links */
+  a {
+    color: rgb(0, 0, 0); /* Sets the link color to #5cc9eb */
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding-left: 11px; /* Slightly more padding on smaller screens */
+      padding-right: 11px; /* Slightly more padding on smaller screens */
+    }
+  }
+  
+  /* For most browsers */
+  ::selection {
+    background: rgb(23, 201, 255); /* Background color for selected text */
+    color: black; /* Text color for selected text */
+  }
+  
+  /* For Mozilla Firefox */
+  ::-moz-selection {
+    background: rgb(249, 249, 79);
+    color: black;
+  }
+  
