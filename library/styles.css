@@ -23,6 +23,9 @@ h6 {
   font-weight: bold; /* Make headers bold */
 }
 
+
+
+
 .header {
   display: flex; /* Use Flexbox to lay out children */
   justify-content: space-between; /* Space between the logo and the navigation bar */
