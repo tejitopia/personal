@@ -23,9 +23,6 @@ h6 {
   font-weight: bold; /* Make headers bold */
 }
 
-
-
-
 .header {
   display: flex; /* Use Flexbox to lay out children */
   justify-content: space-between; /* Space between the logo and the navigation bar */
@@ -43,6 +40,11 @@ h6 {
 a {
   text-decoration: none; /* Removes underlines from all links */
   color: #58daed; /* Sets the link color to #58daed */
+}
+
+/* Change the color for visited links */
+a:visited {
+  color: #419fae; /* Slightly darker color for visited links */
 }
 
 .navbar {
