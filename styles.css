@@ -60,6 +60,19 @@ a:visited {
   padding: 5px 10px; /* Add some padding */
 }
 
+blockquote {
+  background-color: #2e3133; /* Dark background color */
+  border-left: 4px solid #58daed; /* Left border with your link color */
+  margin: 1.5em 10px; /* Margin around the blockquote */
+  padding: 10px 20px; /* Padding inside the blockquote */
+  color: #eeeeee; /* Text color */
+  font-style: italic; /* Italicize the text */
+}
+
+blockquote p {
+  margin: 0; /* Remove default margins from paragraphs inside blockquote */
+}
+
 .navbar a:hover {
   text-decoration: underline; /* Add an underline on hover for better UX */
 }
