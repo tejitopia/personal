@@ -60,6 +60,10 @@ a:visited {
   padding: 5px 10px; /* Add some padding */
 }
 
+.navbar a:hover {
+  text-decoration: underline; /* Add an underline on hover for better UX */
+}
+
 blockquote {
   background-color: #2e3133; /* Dark background color */
   border-left: 4px solid #58daed; /* Left border with your link color */
@@ -71,10 +75,6 @@ blockquote {
 
 blockquote p {
   margin: 0; /* Remove default margins from paragraphs inside blockquote */
-}
-
-.navbar a:hover {
-  text-decoration: underline; /* Add an underline on hover for better UX */
 }
 
 @media (max-width: 768px) {
@@ -107,7 +107,7 @@ a:hover {
 
 /* For Mozilla Firefox */
 ::-moz-selection {
-  background: #78dbeb;
+  background: rgb(249, 249, 79);
   color: black;
 }
 
@@ -129,4 +129,12 @@ a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* Centering images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
