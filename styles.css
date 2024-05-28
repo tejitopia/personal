@@ -107,7 +107,7 @@ a:hover {
 
 /* For Mozilla Firefox */
 ::-moz-selection {
-  background: rgb(249, 249, 79);
+  background: #78dbeb;
   color: black;
 }
 
