@@ -1,6 +1,6 @@
 body {
   font-family: "Times", Times, serif;
-  font-size: 20px; /* Sets the font size to 18 pixels */
+  font-size: 20px; /* Sets the font size to 20 pixels */
   margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
   text-align: left; /* Ensure all text is left-aligned */
   max-width: 600px; /* Maximum width of the content */
@@ -21,6 +21,28 @@ h5,
 h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Apply Helvetica as the default font for headers */
   font-weight: bold; /* Make headers bold */
+}
+
+h1 {
+  margin-bottom: 0; /* Remove the space below the h1 */
+}
+
+h4 {
+  margin-top: 0; /* Remove the space above the h4 */
+  font-size: 20px; /* Adjust the size as needed */
+  color: #000000; /* Grey text color */
+  margin-bottom: 5px; /* Adjust the space below the h4 */
+}
+
+h5 {
+  margin-top: 0; /* Remove the space above the h4 */
+  font-size: 20px; /* Adjust the size as needed */
+  color: #000000; /* Grey text color */
+  margin-bottom: 5px; /* Adjust the space below the h4 */
+}
+
+p {
+  margin-top: 20px; /* Adjust the space above the paragraphs */
 }
 
 .header {
