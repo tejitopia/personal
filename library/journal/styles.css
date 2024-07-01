@@ -1,6 +1,6 @@
 body {
   font-family: monospace, "Courier New", Courier;
-  font-size: 16px; /* Sets the font size to 16 pixels */
+  font-size: 18px; /* Sets the font size to 16 pixels */
   margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
   text-align: left; /* Ensure all text is left-aligned */
   max-width: 700px; /* Maximum width of the content */
@@ -8,8 +8,8 @@ body {
   margin-right: auto; /* Center the content block horizontally */
   padding-left: 2px; /* Adds padding to the left */
   padding-right: 2px; /* Adds padding to the right */
-  background-color: #1c2022; /* Sets the background color */
-  color: #eeeeee; /* Sets the text color */
+  background-color: #ffffff; /* Sets the background color */
+  color: #000000; /* Sets the text color */
   line-height: 1.5; /* Sets the line height */
 }
 
@@ -38,13 +38,13 @@ h6 {
 
 /* Style for links */
 a {
-  text-decoration: none; /* Removes underlines from all links */
-  color: #58daed; /* Sets the link color to #58daed */
+  text-decoration: underline; /* Underlines all links */
+  color: #000000; /* Sets the link color */
 }
 
 /* Change the color for visited links */
 a:visited {
-  color: #419fae; /* Slightly darker color for visited links */
+  color: #000000; /* Slightly darker color for visited links */
 }
 
 .navbar {
@@ -54,8 +54,8 @@ a:visited {
 }
 
 .navbar a {
-  text-decoration: none; /* Remove underlines from links */
-  color: #58daed; /* Your link color */
+  text-decoration: underline; /* Underline links */
+  color: #000000; /* Your link color */
   font-size: 18px; /* Match the size to your design */
   padding: 5px 10px; /* Add some padding */
   font-family: Helvetica, Arial, sans-serif; /* Set font to Helvetica */
@@ -67,11 +67,11 @@ a:visited {
 }
 
 blockquote {
-  background-color: #2e3133; /* Dark background color */
+  background-color: #ebebeb; /* Dark background color */
   border-left: 4px solid #58daed; /* Left border with your link color */
   margin: 1.5em 10px; /* Margin around the blockquote */
   padding: 10px 20px; /* Padding inside the blockquote */
-  color: #eeeeee; /* Text color */
+  color: #000000; /* Text color */
   font-style: italic; /* Italicize the text */
 }
 
@@ -85,9 +85,9 @@ blockquote p {
   }
 }
 
-/* Style for links */
+/* Change the color for links */
 a {
-  color: #58daed; /* Sets the link color to #5cc9eb */
+  color: #000000; /* Sets the link color */
 }
 
 a:hover {
@@ -109,26 +109,14 @@ a:hover {
 
 /* For Mozilla Firefox */
 ::-moz-selection {
-  background: rgb(249, 249, 79);
+  background: #78dbeb;
   color: black;
 }
 
-.donation-container {
-  display: flex;
-  justify-content: space-around; /* This will space your items evenly */
-}
-
-.donation-box {
-  border: 1px solid #58daed;
-  padding: 10px;
-  background-color: #222222;
-  color: #58daed;
-  margin: 10px; /* Adjust as needed for spacing */
-  flex: 1; /* This will make both boxes take up equal space */
-  width: calc(
-    50% - 20px
-  ); /* This accounts for the margin, assuming a 10px margin on each side */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+/* Centering images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
