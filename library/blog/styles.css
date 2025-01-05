@@ -1,126 +1,188 @@
+@font-face {
+  font-family: 'Terminal';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/3270font/3.0.1/3270.woff2') format('woff2');
+}
+
 body {
-  font-family: "Times", Times, serif;
-  font-size: 21px; /* Sets the font size to 18 pixels */
-  margin: 5% 10%; /* Top and bottom margins set to 5%, left and right margins to 10% */
-  text-align: left; /* Ensure all text is left-aligned */
-  max-width: 700px; /* Maximum width of the content */
-  margin-left: auto; /* Center the content block horizontally */
-  margin-right: auto; /* Center the content block horizontally */
-  padding-left: 2px; /* Adds padding to the left */
-  padding-right: 2px; /* Adds padding to the right */
-  background-color: #ffffff; /* Sets the background color */
-  color: #000000; /* Sets the text color */
-  line-height: 1.5; /* Sets the line height */
+  background-color: #000000;
+  font-family: 'Arial', Helvetica, sans-serif;
+  color: #FFFFFF;
+  max-width: 551px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Apply Helvetica as the default font for headers */
-  font-weight: bold; /* Make headers bold */
+h1, h2 {
+  color: #FFFFFF;
+  font-family: 'Arial', Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-.header {
-  display: flex; /* Use Flexbox to lay out children */
-  justify-content: space-between; /* Space between the logo and the navigation bar */
-  align-items: center; /* Center items vertically */
-  /* padding: 10px 5%; /* Add some padding */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.logo img {
-  /* If your logo is a text, you might want to use different styling */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Make sure the image is responsive */
-}
-
-/* Style for links */
 a {
-  text-decoration: underline; /* Underlines all links */
-  color: #000000; /* Sets the link color */
+  color: #FFFFFF;
+  text-decoration: underline !important;
 }
 
-/* Change the color for visited links */
-a:visited {
-  color: #000000; /* Slightly darker color for visited links */
+.nav-link {
+  text-decoration: none !important;
+}
+
+.nav-link::before {
+  content: "[";
+}
+
+.nav-link::after {
+  content: "]";
+}
+
+.nav-link:hover {
+  color: #31ADA9;
 }
 
 .navbar {
-  display: flex; /* Use Flexbox for the navigation links as well */
-  justify-content: flex-end; /* Align the links to the right */
-  gap: 5px; /* Space between the navigation links */
+  text-align: center;
+  margin: 40px 0 60px 0;
 }
 
 .navbar a {
-  text-decoration: underline; /* Underline links */
-  color: #000000; /* Your link color */
-  font-size: 21px; /* Match the size to your design */
-  padding: 5px 10px; /* Add some padding */
-  font-family: Helvetica, Arial, sans-serif; /* Set font to Helvetica */
-  font-weight: bold; /* Set font to bold */
+  margin: 0 8px;
 }
 
-.navbar a:hover {
-  text-decoration: underline; /* Add an underline on hover for better UX */
+.introduction {
+  margin: 0;
+  line-height: 1.8;
+  padding: 0;
 }
 
-blockquote {
-  background-color: #ebebeb; /* Dark background color */
-  border-left: 4px solid #58daed; /* Left border with your link color */
-  margin: 1.5em 10px; /* Margin around the blockquote */
-  padding: 10px 20px; /* Padding inside the blockquote */
-  color: #000000; /* Text color */
-  font-style: italic; /* Italicize the text */
+ul {
+  list-style-type: disc; 
+  padding-left: 20px; 
 }
 
-blockquote p {
-  margin: 0; /* Remove default margins from paragraphs inside blockquote */
+li {
+  margin: 15px 0;
 }
 
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column; /* Stack logo and navigation on small screens */
-  }
+.date {
+  color: #666;
+  margin-left: 20px;
 }
 
-/* Change the color for links */
-a {
-  color: #000000; /* Sets the link color */
+.date-green {
+  color: #31ADA9;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 
-a:hover {
-  text-decoration: underline; /* Add an underline on hover for better UX */
+.announcements {
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 1.8;
 }
 
-@media (max-width: 768px) {
+.announcements li {
+  display: list-item;
+  font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.box {
+  margin: 60px 0;
+}
+
+@media only screen and (max-width: 768px) {
   body {
-    padding-left: 11px; /* Slightly more padding on smaller screens */
-    padding-right: 11px; /* Slightly more padding on smaller screens */
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .navbar a {
+    margin: 0 5px;
   }
 }
 
-/* For most browsers */
-::selection {
-  background: #78dbeb; /* Background color for selected text */
-  color: black; /* Text color for selected text */
+.post-title {
+  text-transform: none;  /* Override uppercase transform for post titles */
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-/* For Mozilla Firefox */
-::-moz-selection {
-  background: #78dbeb;
-  color: black;
+.post-date {
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: 'Arial', Helvetica, sans-serif;
 }
 
-/* Centering images */
+.post-content {
+  line-height: 1.8;
+}
+
+.post-content h2 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+
+.post-content p {
+  margin-bottom: 20px;
+}
+
+.post-footer {
+  margin-top: 60px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.disclaimer {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Back link styling */
+.post-footer .nav-link {
+  margin-top: 30px;
+  display: inline-block;
+}
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  cursor: pointer; /* Shows clickable cursor */
 }
 
-h4 {
-  margin-top: -10px; /* Adjust this value as needed */
+/* Color on hover */
+img:hover {
+  filter: grayscale(0%);
+}
+
+/* Color when clicked/focused */
+img:focus {
+  filter: grayscale(0%);
+  outline: none; /* Removes default focus outline */
+}
+
+/* Color remains when clicked (active state) */
+img:active {
+  filter: grayscale(0%);
 }
